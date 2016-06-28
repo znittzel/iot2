@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7FBE781D22CA97000247C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBE771D22CA97000247C0 /* AppDelegate.swift */; };
+		1A7FBE7A1D22CA97000247C0 /* DeviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBE791D22CA97000247C0 /* DeviceTableViewController.swift */; };
+		1A7FBE7F1D22CA97000247C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7FBE7E1D22CA97000247C0 /* Assets.xcassets */; };
+		1A7FBE821D22CA97000247C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7FBE801D22CA97000247C0 /* LaunchScreen.storyboard */; };
+		1A7FBE8E1D22CAE5000247C0 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBE8D1D22CAE5000247C0 /* CurrentUser.swift */; };
+		1A7FBE901D22CB41000247C0 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBE8F1D22CB41000247C0 /* Device.swift */; };
+		1A7FBE921D22CB92000247C0 /* DeviceNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBE911D22CB92000247C0 /* DeviceNotification.swift */; };
+		1A7FBE941D22CBD1000247C0 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBE931D22CBD1000247C0 /* DeviceType.swift */; };
+		1A7FBE971D22CCD2000247C0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBE961D22CCD2000247C0 /* Parse.framework */; };
+		1A7FBE991D22CCD9000247C0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBE981D22CCD9000247C0 /* Bolts.framework */; };
+		1A7FBE9B1D22CCFA000247C0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBE9A1D22CCFA000247C0 /* AudioToolbox.framework */; };
+		1A7FBE9D1D22CD01000247C0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBE9C1D22CD01000247C0 /* CFNetwork.framework */; };
+		1A7FBE9F1D22CD08000247C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBE9E1D22CD08000247C0 /* CoreGraphics.framework */; };
+		1A7FBEA11D22CD0E000247C0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBEA01D22CD0E000247C0 /* CoreLocation.framework */; };
+		1A7FBEA31D22CD14000247C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBEA21D22CD14000247C0 /* QuartzCore.framework */; };
+		1A7FBEA51D22CD19000247C0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBEA41D22CD19000247C0 /* Security.framework */; };
+		1A7FBEA71D22CD21000247C0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBEA61D22CD21000247C0 /* StoreKit.framework */; };
+		1A7FBEA91D22CD28000247C0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBEA81D22CD28000247C0 /* SystemConfiguration.framework */; };
+		1A7FBEAB1D22CD2E000247C0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBEAA1D22CD2E000247C0 /* libz.tbd */; };
+		1A7FBEAD1D22CD3A000247C0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FBEAC1D22CD3A000247C0 /* libsqlite3.tbd */; };
+		1A7FBEAF1D22CDDC000247C0 /* TuvaTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBEAE1D22CDDC000247C0 /* TuvaTools.swift */; };
+		1A7FBEB11D22CE73000247C0 /* EventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBEB01D22CE73000247C0 /* EventHandler.swift */; };
+		1A7FBEB31D22D53D000247C0 /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBEB21D22D53D000247C0 /* HowToViewController.swift */; };
+		1A7FBEB51D22D582000247C0 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBEB41D22D582000247C0 /* DeviceViewController.swift */; };
+		1A7FBEB71D22D9D0000247C0 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBEB61D22D9D0000247C0 /* DeviceTableViewCell.swift */; };
+		1A7FBEBA1D22DD94000247C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7FBEB81D22DD94000247C0 /* Main.storyboard */; };
+		1A7FBEBC1D22E2A2000247C0 /* DeviceNotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FBEBB1D22E2A2000247C0 /* DeviceNotificationTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A7FBE741D22CA97000247C0 /* tuva-iot-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tuva-iot-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7FBE771D22CA97000247C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A7FBE791D22CA97000247C0 /* DeviceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewController.swift; sourceTree = "<group>"; };
+		1A7FBE7E1D22CA97000247C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A7FBE811D22CA97000247C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A7FBE831D22CA97000247C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7FBE8D1D22CAE5000247C0 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		1A7FBE8F1D22CB41000247C0 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		1A7FBE911D22CB92000247C0 /* DeviceNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceNotification.swift; sourceTree = "<group>"; };
+		1A7FBE931D22CBD1000247C0 /* DeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
+		1A7FBE961D22CCD2000247C0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1A7FBE981D22CCD9000247C0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1A7FBE9A1D22CCFA000247C0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1A7FBE9C1D22CD01000247C0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1A7FBE9E1D22CD08000247C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A7FBEA01D22CD0E000247C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1A7FBEA21D22CD14000247C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1A7FBEA41D22CD19000247C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1A7FBEA61D22CD21000247C0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1A7FBEA81D22CD28000247C0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A7FBEAA1D22CD2E000247C0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1A7FBEAC1D22CD3A000247C0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1A7FBEAE1D22CDDC000247C0 /* TuvaTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuvaTools.swift; sourceTree = "<group>"; };
+		1A7FBEB01D22CE73000247C0 /* EventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHandler.swift; sourceTree = "<group>"; };
+		1A7FBEB21D22D53D000247C0 /* HowToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
+		1A7FBEB41D22D582000247C0 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		1A7FBEB61D22D9D0000247C0 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		1A7FBEB91D22DD94000247C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A7FBEBB1D22E2A2000247C0 /* DeviceNotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceNotificationTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7FBE711D22CA97000247C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7FBEAD1D22CD3A000247C0 /* libsqlite3.tbd in Frameworks */,
+				1A7FBEAB1D22CD2E000247C0 /* libz.tbd in Frameworks */,
+				1A7FBEA91D22CD28000247C0 /* SystemConfiguration.framework in Frameworks */,
+				1A7FBEA71D22CD21000247C0 /* StoreKit.framework in Frameworks */,
+				1A7FBEA51D22CD19000247C0 /* Security.framework in Frameworks */,
+				1A7FBEA31D22CD14000247C0 /* QuartzCore.framework in Frameworks */,
+				1A7FBEA11D22CD0E000247C0 /* CoreLocation.framework in Frameworks */,
+				1A7FBE9F1D22CD08000247C0 /* CoreGraphics.framework in Frameworks */,
+				1A7FBE9D1D22CD01000247C0 /* CFNetwork.framework in Frameworks */,
+				1A7FBE9B1D22CCFA000247C0 /* AudioToolbox.framework in Frameworks */,
+				1A7FBE971D22CCD2000247C0 /* Parse.framework in Frameworks */,
+				1A7FBE991D22CCD9000247C0 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A7FBE6B1D22CA97000247C0 = {
+			isa = PBXGroup;
+			children = (
+				1A7FBE761D22CA97000247C0 /* tuva-iot-v2 */,
+				1A7FBE751D22CA97000247C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A7FBE751D22CA97000247C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A7FBE741D22CA97000247C0 /* tuva-iot-v2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A7FBE761D22CA97000247C0 /* tuva-iot-v2 */ = {
+			isa = PBXGroup;
+			children = (
+				1A7FBE951D22CCAD000247C0 /* Framework */,
+				1A7FBE8C1D22CAD9000247C0 /* Helpers */,
+				1A7FBE8B1D22CAD4000247C0 /* View */,
+				1A7FBE8A1D22CACE000247C0 /* Controller */,
+				1A7FBE891D22CAC9000247C0 /* Model */,
+				1A7FBE771D22CA97000247C0 /* AppDelegate.swift */,
+				1A7FBEB81D22DD94000247C0 /* Main.storyboard */,
+				1A7FBE7E1D22CA97000247C0 /* Assets.xcassets */,
+				1A7FBE801D22CA97000247C0 /* LaunchScreen.storyboard */,
+				1A7FBE831D22CA97000247C0 /* Info.plist */,
+			);
+			path = "tuva-iot-v2";
+			sourceTree = "<group>";
+		};
+		1A7FBE891D22CAC9000247C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A7FBE8F1D22CB41000247C0 /* Device.swift */,
+				1A7FBE911D22CB92000247C0 /* DeviceNotification.swift */,
+				1A7FBE931D22CBD1000247C0 /* DeviceType.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1A7FBE8A1D22CACE000247C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A7FBE791D22CA97000247C0 /* DeviceTableViewController.swift */,
+				1A7FBEB21D22D53D000247C0 /* HowToViewController.swift */,
+				1A7FBEB41D22D582000247C0 /* DeviceViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1A7FBE8B1D22CAD4000247C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A7FBEB61D22D9D0000247C0 /* DeviceTableViewCell.swift */,
+				1A7FBEBB1D22E2A2000247C0 /* DeviceNotificationTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1A7FBE8C1D22CAD9000247C0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1A7FBE8D1D22CAE5000247C0 /* CurrentUser.swift */,
+				1A7FBEAE1D22CDDC000247C0 /* TuvaTools.swift */,
+				1A7FBEB01D22CE73000247C0 /* EventHandler.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		1A7FBE951D22CCAD000247C0 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1A7FBEAC1D22CD3A000247C0 /* libsqlite3.tbd */,
+				1A7FBEAA1D22CD2E000247C0 /* libz.tbd */,
+				1A7FBEA81D22CD28000247C0 /* SystemConfiguration.framework */,
+				1A7FBEA61D22CD21000247C0 /* StoreKit.framework */,
+				1A7FBEA41D22CD19000247C0 /* Security.framework */,
+				1A7FBEA21D22CD14000247C0 /* QuartzCore.framework */,
+				1A7FBEA01D22CD0E000247C0 /* CoreLocation.framework */,
+				1A7FBE9E1D22CD08000247C0 /* CoreGraphics.framework */,
+				1A7FBE9C1D22CD01000247C0 /* CFNetwork.framework */,
+				1A7FBE9A1D22CCFA000247C0 /* AudioToolbox.framework */,
+				1A7FBE981D22CCD9000247C0 /* Bolts.framework */,
+				1A7FBE961D22CCD2000247C0 /* Parse.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A7FBE731D22CA97000247C0 /* tuva-iot-v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7FBE861D22CA97000247C0 /* Build configuration list for PBXNativeTarget "tuva-iot-v2" */;
+			buildPhases = (
+				1A7FBE701D22CA97000247C0 /* Sources */,
+				1A7FBE711D22CA97000247C0 /* Frameworks */,
+				1A7FBE721D22CA97000247C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tuva-iot-v2";
+			productName = "tuva-iot-v2";
+			productReference = 1A7FBE741D22CA97000247C0 /* tuva-iot-v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A7FBE6C1D22CA97000247C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rikard Olsson";
+				TargetAttributes = {
+					1A7FBE731D22CA97000247C0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7P66TM94V9;
+					};
+				};
+			};
+			buildConfigurationList = 1A7FBE6F1D22CA97000247C0 /* Build configuration list for PBXProject "tuva-iot-v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A7FBE6B1D22CA97000247C0;
+			productRefGroup = 1A7FBE751D22CA97000247C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A7FBE731D22CA97000247C0 /* tuva-iot-v2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7FBE721D22CA97000247C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7FBEBA1D22DD94000247C0 /* Main.storyboard in Resources */,
+				1A7FBE821D22CA97000247C0 /* LaunchScreen.storyboard in Resources */,
+				1A7FBE7F1D22CA97000247C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7FBE701D22CA97000247C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7FBE7A1D22CA97000247C0 /* DeviceTableViewController.swift in Sources */,
+				1A7FBEB71D22D9D0000247C0 /* DeviceTableViewCell.swift in Sources */,
+				1A7FBE921D22CB92000247C0 /* DeviceNotification.swift in Sources */,
+				1A7FBEB51D22D582000247C0 /* DeviceViewController.swift in Sources */,
+				1A7FBE8E1D22CAE5000247C0 /* CurrentUser.swift in Sources */,
+				1A7FBEB31D22D53D000247C0 /* HowToViewController.swift in Sources */,
+				1A7FBEBC1D22E2A2000247C0 /* DeviceNotificationTableViewCell.swift in Sources */,
+				1A7FBE941D22CBD1000247C0 /* DeviceType.swift in Sources */,
+				1A7FBE781D22CA97000247C0 /* AppDelegate.swift in Sources */,
+				1A7FBEB11D22CE73000247C0 /* EventHandler.swift in Sources */,
+				1A7FBEAF1D22CDDC000247C0 /* TuvaTools.swift in Sources */,
+				1A7FBE901D22CB41000247C0 /* Device.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A7FBE801D22CA97000247C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7FBE811D22CA97000247C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1A7FBEB81D22DD94000247C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7FBEB91D22DD94000247C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A7FBE841D22CA97000247C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A7FBE851D22CA97000247C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A7FBE871D22CA97000247C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tuva-iot-v2",
+				);
+				INFOPLIST_FILE = "tuva-iot-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rikard-Olsson.tuva-iot-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A7FBE881D22CA97000247C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tuva-iot-v2",
+				);
+				INFOPLIST_FILE = "tuva-iot-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rikard-Olsson.tuva-iot-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7FBE6F1D22CA97000247C0 /* Build configuration list for PBXProject "tuva-iot-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7FBE841D22CA97000247C0 /* Debug */,
+				1A7FBE851D22CA97000247C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7FBE861D22CA97000247C0 /* Build configuration list for PBXNativeTarget "tuva-iot-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7FBE871D22CA97000247C0 /* Debug */,
+				1A7FBE881D22CA97000247C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A7FBE6C1D22CA97000247C0 /* Project object */;
+}
